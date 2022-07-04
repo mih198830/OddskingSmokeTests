@@ -61,16 +61,13 @@ test
 ```
 
 ### 
-![2022-07-04_21h52_44](https://user-images.githubusercontent.com/61227126/177200949-d4602c5d-46d0-41fd-a7e0-ccdae1c92cb5.png)
-<p></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/Oddsking%20Smoke%20Tests/8/allure/">Allure report</a><p>
 
+<p></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/Oddsking%20Smoke%20Tests/8/allure/">Allure report</a><p>
+![2022-07-04_21h47_22](https://user-images.githubusercontent.com/61227126/177201030-792eba29-c14a-492c-a878-cbb02cd3dd5a.png)
 
 
 ### Основное окно
-
-<p align="center">
-![2022-07-04_21h52_44](https://user-images.githubusercontent.com/61227126/177200879-3c774dc2-5ec3-4dd8-8039-ca2ebdcdace5.png)
-</p>
+![2022-07-04_21h52_44](https://user-images.githubusercontent.com/61227126/177200949-d4602c5d-46d0-41fd-a7e0-ccdae1c92cb5.png)
 
 
 Serve report:
