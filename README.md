@@ -1,11 +1,12 @@
 # Smoke tests for Oddsking site
 <a target="_blank" href="https://oddsking.com/">Oddsking testing</a>
 
-# Jenkins job
+
+## :mechanic: Jenkins job
 <a target="_blank" href="https://jenkins.autotests.cloud/job/Oddsking%20Smoke%20Tests/">jenkins.autotests.cloud/job/%s</a>
 
 
-## :pushpin: Содержание:
+## :blue_book: Content:
 
 - [Технологии и инструменты](#earth_africa-технологии-и-инструменты)
 - [Реализованные проверки](#earth_africa-Реализованные-проверки)
@@ -18,6 +19,7 @@
 - [Видео примеры прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
                                                                
 ## :technologist: Технологии и инструменты
+![2022-07-04_22h05_22](https://user-images.githubusercontent.com/61227126/177201975-cc177a1e-8876-46c8-9113-a67d08583a55.png)
 
 ## :bookmark_tabs: Реализованы проверки
 
@@ -74,12 +76,10 @@ Serve report:
 allure serve build/allure-results
 ```
 
+## :clapper: Test video example:
+https://user-images.githubusercontent.com/61227126/177204538-95d11128-c324-445e-ac10-c9e7a1b3e657.mp4
 
-###### For further development there are some example tests in src/test/java/cloud.autotests/tests/demowebshop
-* remove @Disabled("...") annotation to run tests
-```bash
-gradle clean demowebshop
-```
 
+  
 :heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
 :blue_heart: <a target="_blank" href="https://t.me/qa_automation">t.me/qa_automation</a>
