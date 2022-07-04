@@ -1,5 +1,5 @@
 # Smoke tests for Oddsking site
-<a target="_blank" href="https://www.performance-la.com/">Oddsking testing</a>
+<a target="_blank" href="https://oddsking.com/">Oddsking testing</a>
 
 # Jenkins job
 <a target="_blank" href="https://jenkins.autotests.cloud/job/Oddsking%20Smoke%20Tests/">jenkins.autotests.cloud/job/%s</a>
