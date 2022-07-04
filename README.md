@@ -29,26 +29,45 @@
 >- [x] *Page console log should not have errors*
 >- [x] *Login page opens and available*
 
-### For run remote tests need fill remote.properties or to pass value:
+### Параметры сборки в Jenkins:
 
-* browser (default chrome)
-* browserVersion (default 100.0)
-* browserSize (default 1920x1080)
-* browserMobileView (mobile device name, for example iPhone X)
-* remoteDriverUrl (url address from selenoid or grid)
-* videoStorage (url address where you should get video)
-* threads (number of threads)
+- browser (браузер, по умолчанию chrome)
+- browserVersion (версия браузера, по умолчанию 91.0)
+- browserSize (размер окна браузера, по умолчанию 1920x1080)
+- browserMobileView (название мобильного устройства, для примера iPhone X)
+- remoteDriverUrl (логин, пароль и адрес удаленного сервера selenoid или grid)
+- videoStorage (адрес, по которому можно получить видео)
+- threads (количество потоков)
 
 
-Run tests with filled remote.properties:
+## :computer: Запуск тестов из терминала
+
+Локальный запуск:
 ```bash
 gradle clean test
 ```
 
-Run tests with not filled remote.properties:
+Удаленный запуск:
 ```bash
-gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
+clean
+test
+-Dbrowser=${BROWSER}
+-DbrowserVersion=${BROWSER_VERSION}
+-DbrowserSize=${BROWSER_SIZE}
+-DbrowserMobileView="${BROWSER_MOBILE}"
+-DremoteDriverUrl=https://${LOGIN}:${PASSWORD}@${REMOTE_DRIVER_URL}/wd/hub/
+-DvideoStorage=https://${REMOTE_DRIVER_URL}/video/
+-Dthreads=${THREADS}
 ```
+
+## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/berezkindv_performance_lab_complete_project/22/allure/">Allure report</a>
+
+### Основное окно
+
+<p align="center">
+<img title="Allure Overview Dashboard" src="images/allure_main.png">
+</p>
+
 
 Serve report:
 ```bash
