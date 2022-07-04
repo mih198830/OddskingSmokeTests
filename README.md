@@ -1,16 +1,29 @@
-# Smoke tests for Oddsking site, https://www.oddsking.com/
-<a target="_blank" href="https://allure.autotests.cloud/project/%s">allure.autotests.cloud/project/%s</a> (ask admin@qa.guru for access)
+# Smoke tests for Oddsking site
+<a target="_blank" href="https://www.oddsking.com/</a>
 
 # Jenkins job
-<a target="_blank" href="https://jenkins.autotests.cloud/job/%s">jenkins.autotests.cloud/job/%s</a>
+<a target="_blank" href="https://jenkins.autotests.cloud/job/Oddsking%20Smoke%20Tests/">jenkins.autotests.cloud/job/%s</a>
 
 
+## :pushpin: Содержание:
+
+- [Технологии и инструменты](#earth_africa-технологии-и-инструменты)
+- [Реализованные проверки](#earth_africa-Реализованные-проверки)
+- [Сборка в Jenkins](#earth_africa-Jenkins-job)
+- [Запуск из терминала](#earth_africa-Запуск-тестов-из-терминала)
+- [Allure отчет](#earth_africa-Allure-отчет)
+- [Интеграция с Allure TestOps](#earth_africa-Интеграция-с-Allure-TestOps)
+- [Интеграция с Jira](#earth_africa-Интеграция-с-Jira)
+- [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
+- [Видео примеры прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
+                                                               
+                                                                
 # USAGE examples
 
 ### For run remote tests need fill remote.properties or to pass value:
 
 * browser (default chrome)
-* browserVersion (default 89.0)
+* browserVersion (default 100.0)
 * browserSize (default 1920x1080)
 * browserMobileView (mobile device name, for example iPhone X)
 * remoteDriverUrl (url address from selenoid or grid)
