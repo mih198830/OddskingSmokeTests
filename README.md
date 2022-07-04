@@ -19,11 +19,11 @@
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UI
 
->- [x] *Testing game search functionality*
->- [x] *Page title should have header text*
->- [x] *Page title should have header text*
->- [x] *Page console log should not have errors*
->- [x] *Login page opens and available*
+> - [x] :heavy_check_mark: *Testing game search functionality*
+> - [x] :heavy_check_mark: *Page title should have header text*
+> - [x] :heavy_check_mark: *Registration page opens and available*
+> - [x] :o: *Page console log should not have errors*
+> - [x] :heavy_check_mark: *Login page opens and available*
 
 ### Jenkins build parameters:
 
