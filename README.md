@@ -18,7 +18,7 @@
 - [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
 - [Видео примеры прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
                                                                
-## :technologist: Технологии и инструменты
+## :technologist: Technologies and instruments
 ![2022-07-04_22h05_22](https://user-images.githubusercontent.com/61227126/177201975-cc177a1e-8876-46c8-9113-a67d08583a55.png)
 
 ## :bookmark_tabs: Реализованы проверки
