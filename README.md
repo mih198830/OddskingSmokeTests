@@ -72,6 +72,9 @@ test
 
 ### Graphs
 ![2022-07-05_22h32_05](https://user-images.githubusercontent.com/61227126/177392923-d6df4df8-e58a-46c4-8d1b-7391bfc9b46c.png)
+  
+### Allure Test Ops test-cases
+![2022-07-05_23h56_34](https://user-images.githubusercontent.com/61227126/177406019-3308e5cd-66f0-4e9c-9c87-62813cfc5edd.png)
 
 Serve report:
 ```bash
