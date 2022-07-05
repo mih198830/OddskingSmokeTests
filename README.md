@@ -8,8 +8,8 @@
 
 ## :blue_book: Content:
 
-- [Технологии и инструменты](#earth_africa-технологии-и-инструменты)
-- [Реализованные проверки](#earth_africa-Реализованные-проверки)
+- [ Technologies and instruments](Technologies-and-instruments)
+- [Tests implemented](Tests-implemented)
 
                                                                
 ## :technologist: Technologies and instruments
