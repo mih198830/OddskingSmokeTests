@@ -63,7 +63,11 @@ test
 ### Overview
 ![2022-07-04_21h56_11](https://user-images.githubusercontent.com/61227126/177201140-a119ff0a-a4eb-4efd-801f-e29c8048eaac.png)
 
+### Suites
+![2022-07-05_22h31_03](https://user-images.githubusercontent.com/61227126/177392676-2293aafa-fdc2-4feb-837c-c4ba40591ddc.png)
 
+### Graphs
+![2022-07-05_22h32_05](https://user-images.githubusercontent.com/61227126/177392923-d6df4df8-e58a-46c4-8d1b-7391bfc9b46c.png)
 
 Serve report:
 ```bash
