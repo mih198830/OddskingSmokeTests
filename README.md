@@ -25,7 +25,7 @@
 > - [x] :o: *Page console log should not have errors*
 > - [x] :heavy_check_mark: *Login page opens and available*
 
-### Jenkins build parameters:
+## Jenkins build parameters:
 
 - browser (браузер, по умолчанию chrome)
 - browserVersion (версия браузера, по умолчанию 91.0)
@@ -38,12 +38,12 @@
 
 ## :computer: Run tests from terminal
 
-Локальный запуск:
+Local run:
 ```bash
 gradle clean test
 ```
 
-Удаленный запуск:
+Remote run:
 ```bash
 clean
 test
@@ -56,9 +56,13 @@ test
 -Dthreads=${THREADS}
 ```
 
-### 
+##
 ![2022-07-04_21h47_22](https://user-images.githubusercontent.com/61227126/177201173-0ab4817f-3071-4ee5-8c35-87d7bc68c080.png)
-<p></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/Oddsking%20Smoke%20Tests/8/allure/">Allure report</a><p>
+<p></a> Report in <a target="_blank" href="https://allure.autotests.cloud/project/1431/dashboards">Allure TestOps</a><p>
+  
+##
+![2022-07-05_22h42_13](https://user-images.githubusercontent.com/61227126/177394268-bb8a67bb-2b2d-47d4-98ee-6af08382b916.png)
+<p></a> Report in <a target="_blank" href="https://jenkins.autotests.cloud/job/Oddsking%20Smoke%20Tests/8/allure/">Test Ops</a><p>
 
 ### Overview
 ![2022-07-04_21h56_11](https://user-images.githubusercontent.com/61227126/177201140-a119ff0a-a4eb-4efd-801f-e29c8048eaac.png)
