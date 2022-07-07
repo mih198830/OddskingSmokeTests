@@ -10,6 +10,7 @@
 
 - [ Technologies and instruments](Technologies-and-instruments)
 - [Tests implemented](Tests-implemented)
+- [Jenkins build parameters](Jenkins-build-parameters)
 
                                                                
 ## :technologist: Technologies and instruments
@@ -73,7 +74,7 @@ test
 ### Graphs
 ![2022-07-05_22h32_05](https://user-images.githubusercontent.com/61227126/177392923-d6df4df8-e58a-46c4-8d1b-7391bfc9b46c.png)
   
-### Allure Test Ops test-cases
+### Allure Test Ops [test-cases](https://allure.autotests.cloud/project/1431/test-cases/10912?treeId=0)
 ![2022-07-05_23h56_34](https://user-images.githubusercontent.com/61227126/177406019-3308e5cd-66f0-4e9c-9c87-62813cfc5edd.png)
 
 Serve report:
