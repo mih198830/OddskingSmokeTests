@@ -28,13 +28,11 @@
 
 ## Jenkins build parameters:
 
-- browser (браузер, по умолчанию chrome)
-- browserVersion (версия браузера, по умолчанию 91.0)
-- browserSize (размер окна браузера, по умолчанию 1920x1080)
-- browserMobileView (название мобильного устройства, для примера iPhone X)
-- remoteDriverUrl (логин, пароль и адрес удаленного сервера selenoid или grid)
-- videoStorage (адрес, по которому можно получить видео)
-- threads (количество потоков)
+- browser (by default chrome)
+- browserVersion (by default 100.0)
+- browserSize (by default 1920x1080)
+- browserMobileView
+- threads
 
 
 ## :computer: Run tests from terminal
