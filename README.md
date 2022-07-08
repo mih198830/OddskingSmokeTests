@@ -11,7 +11,8 @@
 - [ Technologies and instruments](Technologies-and-instruments)
 - [Tests implemented](Tests-implemented)
 - [Jenkins build parameters](Jenkins-build-parameters)
-
+- [Run tests from terminal](Run-tests-from-terminal)
+- [Test video example](Test-video-example)
                                                                
 ## :technologist: Technologies and instruments
 ![2022-07-04_22h05_22](https://user-images.githubusercontent.com/61227126/177201975-cc177a1e-8876-46c8-9113-a67d08583a55.png)
@@ -80,7 +81,7 @@ Serve report:
 allure serve build/allure-results
 ```
 
-## :clapper: Test video example:
+## :clapper: Test video example
 https://user-images.githubusercontent.com/61227126/177204538-95d11128-c324-445e-ac10-c9e7a1b3e657.mp4
 
 
