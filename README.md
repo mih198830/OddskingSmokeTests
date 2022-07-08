@@ -74,7 +74,7 @@ test
 ### Graphs
 ![2022-07-05_22h32_05](https://user-images.githubusercontent.com/61227126/177392923-d6df4df8-e58a-46c4-8d1b-7391bfc9b46c.png)
   
-### Allure Test Ops [test-cases](https://allure.autotests.cloud/project/1431/test-cases/10912?treeId=0)
+### ![AllureTestOps (1)](https://user-images.githubusercontent.com/61227126/177992986-b5498dfb-8e67-4e40-a355-afb590f616a8.png) Allure Test Ops [test-cases](https://allure.autotests.cloud/project/1431/test-cases/10912?treeId=0)
 ![2022-07-05_23h56_34](https://user-images.githubusercontent.com/61227126/177406019-3308e5cd-66f0-4e9c-9c87-62813cfc5edd.png)
 
 Serve report:
@@ -86,7 +86,7 @@ allure serve build/allure-results
 https://user-images.githubusercontent.com/61227126/177204538-95d11128-c324-445e-ac10-c9e7a1b3e657.mp4
 
 
-### Notification to Telegram with report results
+### ![Telegram (1)](https://user-images.githubusercontent.com/61227126/177992751-b5d98d08-29ee-4f20-98ff-8cbacdba530c.png) Notification to Telegram with report results 
 ![2022-07-07_22h57_38](https://user-images.githubusercontent.com/61227126/177851117-4c09deb4-6cef-48f6-bc07-934f27adb39c.png)
 
   
