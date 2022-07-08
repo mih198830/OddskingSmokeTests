@@ -18,7 +18,7 @@
 
 ## :bookmark_tabs: Tests implemented
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UI
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UI
 
 > - [x] :heavy_check_mark: *Testing game search functionality*
 > - [x] :heavy_check_mark: *Page title should have header text*
@@ -63,16 +63,16 @@ test
 ![2022-07-04_21h47_22](https://user-images.githubusercontent.com/61227126/177201173-0ab4817f-3071-4ee5-8c35-87d7bc68c080.png)
 <p></a> Report in <a target="_blank" href="https://jenkins.autotests.cloud/job/Oddsking%20Smoke%20Tests/8/allure/">Allure</a><p>
 
-### Overview
+## Overview
 ![2022-07-04_21h56_11](https://user-images.githubusercontent.com/61227126/177201140-a119ff0a-a4eb-4efd-801f-e29c8048eaac.png)
 
-### Suites
+## Suites
 ![2022-07-05_22h31_03](https://user-images.githubusercontent.com/61227126/177392676-2293aafa-fdc2-4feb-837c-c4ba40591ddc.png)
 
-### Graphs
+## Graphs
 ![2022-07-05_22h32_05](https://user-images.githubusercontent.com/61227126/177392923-d6df4df8-e58a-46c4-8d1b-7391bfc9b46c.png)
   
-### ![AllureTestOps (1)](https://user-images.githubusercontent.com/61227126/177992986-b5498dfb-8e67-4e40-a355-afb590f616a8.png) Allure Test Ops [test-cases](https://allure.autotests.cloud/project/1431/test-cases/10912?treeId=0)
+## ![AllureTestOps (1)](https://user-images.githubusercontent.com/61227126/177992986-b5498dfb-8e67-4e40-a355-afb590f616a8.png) Allure Test Ops [test-cases](https://allure.autotests.cloud/project/1431/test-cases/10912?treeId=0)
 ![2022-07-05_23h56_34](https://user-images.githubusercontent.com/61227126/177406019-3308e5cd-66f0-4e9c-9c87-62813cfc5edd.png)
 
 Serve report:
@@ -84,7 +84,7 @@ allure serve build/allure-results
 https://user-images.githubusercontent.com/61227126/177204538-95d11128-c324-445e-ac10-c9e7a1b3e657.mp4
 
 
-### ![Telegram (1)](https://user-images.githubusercontent.com/61227126/177992751-b5d98d08-29ee-4f20-98ff-8cbacdba530c.png) Notification to Telegram with report results 
+## ![Telegram (1)](https://user-images.githubusercontent.com/61227126/177992751-b5d98d08-29ee-4f20-98ff-8cbacdba530c.png) Notification to Telegram with report results 
 ![2022-07-07_22h57_38](https://user-images.githubusercontent.com/61227126/177851117-4c09deb4-6cef-48f6-bc07-934f27adb39c.png)
 
   
