@@ -84,11 +84,15 @@ allure serve build/allure-results
 
 ## :clapper: Test video example:
 https://user-images.githubusercontent.com/61227126/177204538-95d11128-c324-445e-ac10-c9e7a1b3e657.mp4
+  
+<p align="center">
+<img title="Selenoid Video" src="https://user-images.githubusercontent.com/61227126/177204538-95d11128-c324-445e-ac10-c9e7a1b3e657.mp4" width="250" height="153"  alt="video"> <img title="Selenoid Video" src="https://user-images.githubusercontent.com/61227126/177204538-95d11128-c324-445e-ac10-c9e7a1b3e657.mp4" width="250" height="153"  alt="video"> <img title="Selenoid Video" src="https://user-images.githubusercontent.com/61227126/177204538-95d11128-c324-445e-ac10-c9e7a1b3e657.mp4" width="250" height="153"  alt="video">
+</p>
+
 
 ### Notification to Telegram with report results
-<p align="center">
 ![2022-07-07_22h57_38](https://user-images.githubusercontent.com/61227126/177851117-4c09deb4-6cef-48f6-bc07-934f27adb39c.png)
-<p>
+
   
 :heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
 :blue_heart: <a target="_blank" href="https://t.me/qa_automation">t.me/qa_automation</a>
