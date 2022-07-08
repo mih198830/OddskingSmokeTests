@@ -84,10 +84,6 @@ allure serve build/allure-results
 
 ## :clapper: Test video example:
 https://user-images.githubusercontent.com/61227126/177204538-95d11128-c324-445e-ac10-c9e7a1b3e657.mp4
-  
-<p align="center">
-<img title="Selenoid Video" src="https://user-images.githubusercontent.com/61227126/177204538-95d11128-c324-445e-ac10-c9e7a1b3e657.mp4" width="250" height="153"  alt="video"> <img title="Selenoid Video" src="https://user-images.githubusercontent.com/61227126/177204538-95d11128-c324-445e-ac10-c9e7a1b3e657.mp4" width="250" height="153"  alt="video"> <img title="Selenoid Video" src="https://user-images.githubusercontent.com/61227126/177204538-95d11128-c324-445e-ac10-c9e7a1b3e657.mp4" width="250" height="153"  alt="video">
-</p>
 
 
 ### Notification to Telegram with report results
