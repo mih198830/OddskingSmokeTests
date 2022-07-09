@@ -13,6 +13,7 @@
 - [Jenkins build parameters](Jenkins-build-parameters)
 - [Run tests from terminal](Run-tests-from-terminal)
 - [Test video example](Test-video-example)
+- [Notification to Telegram with report results](Notification-to-Telegram-with-report-results)
                                                                
 ## :technologist: Technologies and instruments
 ![2022-07-04_22h05_22](https://user-images.githubusercontent.com/61227126/177201975-cc177a1e-8876-46c8-9113-a67d08583a55.png)
