@@ -1,9 +1,9 @@
 # Smoke tests for Oddsking site
-<a target="_blank" href="https://oddsking.com/">Oddsking testing</a>
+<a target="_blank" href="https://oddsking.com/">Oddsking platform testing</a>
 
 
 ## :mechanic: Jenkins job
-<a target="_blank" href="https://jenkins.autotests.cloud/job/Oddsking%20Smoke%20Tests/">jenkins.autotests.cloud/job/%s</a>
+<a target="_blank" href="https://jenkins.autotests.cloud/job/Oddsking%20Smoke%20Tests/">jenkins.autotests.cloud/job</a>
 
 
 ## :blue_book: Content:
@@ -14,6 +14,7 @@
 - [Run tests from terminal](Run-tests-from-terminal)
 - [Test video example](Test-video-example)
 - [Notification to Telegram with report results](Notification-to-Telegram-with-report-results)
+- [Jira synchronization](Jira-synchronization)
                                                                
 ## :technologist: Technologies and instruments
 ![2022-07-04_22h05_22](https://user-images.githubusercontent.com/61227126/177201975-cc177a1e-8876-46c8-9113-a67d08583a55.png)
@@ -58,11 +59,11 @@ test
 ```
 
 ##
-![2022-07-05_22h42_13](https://user-images.githubusercontent.com/61227126/177394268-bb8a67bb-2b2d-47d4-98ee-6af08382b916.png)
+![AllureTestOps (1)](https://user-images.githubusercontent.com/61227126/178105147-0d813199-d937-436f-afcb-2f80e941ccaf.png)
 <p></a> Report in <a target="_blank" href="https://allure.autotests.cloud/project/1431/dashboards">Allure TestOps</a><p>
  
 ##
-![2022-07-04_21h47_22](https://user-images.githubusercontent.com/61227126/177201173-0ab4817f-3071-4ee5-8c35-87d7bc68c080.png)
+![Allure_Report](https://user-images.githubusercontent.com/61227126/178105175-54c2a093-f0f3-4212-bcc7-2343399d33ba.png)
 <p></a> Report in <a target="_blank" href="https://jenkins.autotests.cloud/job/Oddsking%20Smoke%20Tests/8/allure/">Allure</a><p>
 
 ## Overview
@@ -85,6 +86,9 @@ allure serve build/allure-results
 ## :clapper: Test video example
 https://user-images.githubusercontent.com/61227126/177204538-95d11128-c324-445e-ac10-c9e7a1b3e657.mp4
 
+  
+## ![Jira](https://user-images.githubusercontent.com/61227126/178106099-be57c5c7-810a-44bd-b6b4-0e5c3d77b1c6.png)Jira [synchronization](https://jira.autotests.cloud/browse/AUTO-1198)
+![2022-07-09_16h39_02](https://user-images.githubusercontent.com/61227126/178106136-55f87a17-0370-4c8d-8232-6ab8689e10c4.png)
 
 ## ![Telegram (1)](https://user-images.githubusercontent.com/61227126/177992751-b5d98d08-29ee-4f20-98ff-8cbacdba530c.png) Notification to Telegram with report results 
 ![2022-07-07_22h57_38](https://user-images.githubusercontent.com/61227126/177851117-4c09deb4-6cef-48f6-bc07-934f27adb39c.png)
