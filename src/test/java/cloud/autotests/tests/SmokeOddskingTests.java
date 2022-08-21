@@ -19,9 +19,6 @@ public class SmokeOddskingTests extends TestBase {
     @Description("Testing game search functionality")
     @DisplayName("Game search working")
     void generatedTest() {
-        step("Open url " + siteUrl, () ->
-                open(siteUrl));
-
         step("Click search field", () -> {
             mainPage.searchFieldClick();
         });
@@ -54,7 +51,6 @@ public class SmokeOddskingTests extends TestBase {
         step("Console logs should not contain text 'SEVERE'", () -> {
             String consoleLogs = DriverUtils.getConsoleLogs();
             String errorText = "SEVERE";
-
             assertThat(consoleLogs).doesNotContain(errorText);
         });
     }
@@ -63,12 +59,9 @@ public class SmokeOddskingTests extends TestBase {
     @Description("Registration module should open")
     @DisplayName("Registration page opens and available")
     void registrationModuleTest() {
-        step("Open url " + siteUrl, () ->
-                open(siteUrl));
         step("Click registration button", () -> {
                 mainPage.joinButtonClick();
         });
-
         step("registration module appears", () -> {
             registrationFirstPage.registrationFirstPageOpens();
         });
@@ -78,13 +71,9 @@ public class SmokeOddskingTests extends TestBase {
     @Description("Login module should open")
     @DisplayName("Login page opens and available")
     void loginModuleTest() {
-        step("Open url " + siteUrl, () ->
-                open(siteUrl));
-
         step("Click login button", () -> {
             mainPage.loginButtonCLick();
         });
-
         step("login module appears", () -> {
             loginPage.loginModuleExist();
         });
