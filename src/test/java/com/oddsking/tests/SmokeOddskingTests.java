@@ -37,7 +37,6 @@ public class SmokeOddskingTests extends TestBase {
         step("Page title should have text 'OddsKing - Play popular arcade gambling games online at OddsKing'", () -> {
             String expectedTitle = "OddsKing - Play popular arcade gambling games online at OddsKing";
             String actualTitle = title();
-
             assertThat(actualTitle).isEqualTo(expectedTitle);
         });
     }
@@ -60,6 +59,7 @@ public class SmokeOddskingTests extends TestBase {
         step("Click registration button", () -> {
                 mainPage.joinButtonClick();
         });
+
         step("registration module appears", () -> {
             registrationFirstPage.registrationFirstPageOpens();
         });
@@ -72,6 +72,7 @@ public class SmokeOddskingTests extends TestBase {
         step("Click login button", () -> {
             mainPage.loginButtonCLick();
         });
+
         step("login module appears", () -> {
             loginPage.loginModuleExist();
         });

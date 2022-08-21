@@ -17,8 +17,6 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;
 
-import static com.codeborne.selenide.Selenide.open;
-
 
 @ExtendWith({AllureJunit5.class})
 public class TestBase {
@@ -37,6 +35,11 @@ public class TestBase {
     public void openPage() {
         Selenide.open("https://www.oddsking.com/");
     }
+
+    public void cookieClick() {
+        mainPage.cookieButtonCLick();
+    }
+
     public void beforeEach() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
