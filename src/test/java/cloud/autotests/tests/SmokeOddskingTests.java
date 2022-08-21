@@ -1,6 +1,7 @@
 package cloud.autotests.tests;
 
 import cloud.autotests.helpers.DriverUtils;
+import cloud.autotests.tests.pages.MainPage;
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
@@ -54,7 +55,6 @@ public class SmokeOddskingTests extends TestBase {
     void consoleShouldNotHaveErrorsTest() {
         step("Open url " + siteUrl, () ->
             open(siteUrl));
-
         step("Console logs should not contain text 'SEVERE'", () -> {
             String consoleLogs = DriverUtils.getConsoleLogs();
             String errorText = "SEVERE";
@@ -69,9 +69,8 @@ public class SmokeOddskingTests extends TestBase {
     void registrationModuleTest() {
         step("Open url " + siteUrl, () ->
                 open(siteUrl));
-
         step("Click registration button", () -> {
-
+                mainPage.joinButtonClick();
         });
 
         step("registration module appears", () -> {
