@@ -37,7 +37,7 @@ public class SmokeOddskingTests extends TestBase {
     @Description("Site has title")
     @DisplayName("Page title should have header text")
     void titleTest() {
-        step("Open url 'https://www.oddsking.com/'", () ->
+        step("Open url " + siteUrl, () ->
             open(siteUrl));
 
         step("Page title should have text 'OddsKing - Play popular arcade gambling games online at OddsKing'", () -> {
@@ -71,7 +71,7 @@ public class SmokeOddskingTests extends TestBase {
                 open(siteUrl));
 
         step("Click registration button", () -> {
-            $("[data-actionable='Header.LoggedOut.buttonJoin'],[href='registration']").click();
+
         });
 
         step("registration module appears", () -> {
