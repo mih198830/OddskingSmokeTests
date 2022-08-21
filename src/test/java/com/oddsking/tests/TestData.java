@@ -1,4 +1,4 @@
-package cloud.autotests.tests;
+package com.oddsking.tests;
 
 import com.github.javafaker.Faker;
 

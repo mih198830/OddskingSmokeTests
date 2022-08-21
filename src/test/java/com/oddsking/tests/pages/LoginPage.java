@@ -1,7 +1,6 @@
-package cloud.autotests.tests.pages;
+package com.oddsking.tests.pages;
 
 import com.codeborne.selenide.SelenideElement;
-import jdk.internal.net.http.common.Log;
 
 import static com.codeborne.selenide.Selenide.$;
 

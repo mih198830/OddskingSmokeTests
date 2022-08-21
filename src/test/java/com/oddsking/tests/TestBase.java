@@ -1,18 +1,17 @@
-package cloud.autotests.tests;
+package com.oddsking.tests;
 
-import cloud.autotests.config.Project;
-import cloud.autotests.helpers.AllureAttachments;
-import cloud.autotests.helpers.DriverSettings;
-import cloud.autotests.helpers.DriverUtils;
-import cloud.autotests.tests.pages.LoginPage;
-import cloud.autotests.tests.pages.MainPage;
-import cloud.autotests.tests.pages.RegistrationFirstPage;
-import cloud.autotests.tests.pages.SearchPage;
+import com.oddsking.config.Project;
+import com.oddsking.helpers.AllureAttachments;
+import com.oddsking.helpers.DriverSettings;
+import com.oddsking.helpers.DriverUtils;
+import com.oddsking.tests.pages.LoginPage;
+import com.oddsking.tests.pages.MainPage;
+import com.oddsking.tests.pages.RegistrationFirstPage;
+import com.oddsking.tests.pages.SearchPage;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.junit5.AllureJunit5;
 import io.qameta.allure.selenide.AllureSelenide;
-import jdk.tools.jmod.Main;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;

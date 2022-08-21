@@ -1,4 +1,4 @@
-package cloud.autotests.config;
+package com.oddsking.config;
 
 import org.aeonbits.owner.ConfigFactory;
 

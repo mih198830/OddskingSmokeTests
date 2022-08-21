@@ -1,15 +1,11 @@
-package cloud.autotests.tests;
+package com.oddsking.tests;
 
-import cloud.autotests.helpers.DriverUtils;
-import cloud.autotests.tests.pages.LoginPage;
-import cloud.autotests.tests.pages.MainPage;
-import com.codeborne.selenide.Condition;
+import com.oddsking.helpers.DriverUtils;
 import com.github.javafaker.Faker;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Selectors.withTagAndText;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
