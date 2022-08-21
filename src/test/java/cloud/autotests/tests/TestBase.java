@@ -17,6 +17,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 @ExtendWith({AllureJunit5.class})
 public class TestBase {
     String siteUrl = "https://www.oddsking.com/";
+
     @BeforeAll
     static void beforeAll() {
         DriverSettings.configure();
