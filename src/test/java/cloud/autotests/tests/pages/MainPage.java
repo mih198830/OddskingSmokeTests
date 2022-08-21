@@ -9,8 +9,12 @@ public class MainPage {
     SelenideElement joinButton = $("[data-actionable='Header.LoggedOut.buttonJoin'],[href='registration']");
     SelenideElement loginButton = $("[data-actionable='Header.LoggedOut.buttonLogin']");
     SelenideElement searchField = $("[data-actionable='GameSearch.Trigger.Open']");
+    SelenideElement cookieButton = $("[data-actionable=Header.CookieBanner.accept_cookies']");
 
-
+    public MainPage cookieButtonCLick() {
+        cookieButton.click();
+        return this;
+    }
     public MainPage joinButtonClick() {
         joinButton.click();
         return this;
