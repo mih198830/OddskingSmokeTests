@@ -23,11 +23,11 @@ import static com.codeborne.selenide.Selenide.open;
 
 @ExtendWith({AllureJunit5.class})
 public class TestBase {
+    TestData testData = new TestData();
     MainPage mainPage = new MainPage();
     LoginPage loginPage = new LoginPage();
     RegistrationFirstPage registrationFirstPage = new RegistrationFirstPage();
     SearchPage searchPage = new SearchPage();
-    String siteUrl = "https://www.oddsking.com/";
 
     @BeforeAll
     static void beforeAll() {

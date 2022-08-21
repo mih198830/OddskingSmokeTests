@@ -4,6 +4,7 @@ import cloud.autotests.helpers.DriverUtils;
 import cloud.autotests.tests.pages.LoginPage;
 import cloud.autotests.tests.pages.MainPage;
 import com.codeborne.selenide.Condition;
+import com.github.javafaker.Faker;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -15,6 +16,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 public class SmokeOddskingTests extends TestBase {
+    Faker faker = new Faker();
     @Test
     @Description("Testing game search functionality")
     @DisplayName("Game search working")
@@ -24,7 +26,7 @@ public class SmokeOddskingTests extends TestBase {
         });
 
         step("Print \"game\" text into \"Search for a game\" text field", () -> {
-            searchPage.searchPageSetValue("abc");
+            searchPage.searchPageSetValue(testData.funnyName);
         });
 
         step("game search results appears", () -> {
