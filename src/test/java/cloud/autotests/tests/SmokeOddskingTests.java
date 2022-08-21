@@ -18,7 +18,7 @@ public class SmokeOddskingTests extends TestBase {
     @DisplayName("Game search working")
     void generatedTest() {
         step("Open url 'https://www.oddsking.com/'", () ->
-                open("https://www.oddsking.com/"));
+                open(siteUrl));
 
         step("Click search field", () -> {
             $("[data-actionable='GameSearch.Trigger.Open']").click();
