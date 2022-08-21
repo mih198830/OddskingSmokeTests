@@ -1,6 +1,7 @@
 package cloud.autotests.tests;
 
 import cloud.autotests.helpers.DriverUtils;
+import cloud.autotests.tests.pages.LoginPage;
 import cloud.autotests.tests.pages.MainPage;
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.Description;
@@ -90,7 +91,7 @@ public class SmokeOddskingTests extends TestBase {
         });
 
         step("login module appears", () -> {
-            $("#Login.username").exists();
+            loginPage.loginModuleExist();
         });
     }
 }

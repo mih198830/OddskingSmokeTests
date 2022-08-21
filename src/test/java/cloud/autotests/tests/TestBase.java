@@ -4,6 +4,7 @@ import cloud.autotests.config.Project;
 import cloud.autotests.helpers.AllureAttachments;
 import cloud.autotests.helpers.DriverSettings;
 import cloud.autotests.helpers.DriverUtils;
+import cloud.autotests.tests.pages.LoginPage;
 import cloud.autotests.tests.pages.MainPage;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
@@ -19,6 +20,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 @ExtendWith({AllureJunit5.class})
 public class TestBase {
     MainPage mainPage = new MainPage();
+    LoginPage loginPage = new LoginPage();
     String siteUrl = "https://www.oddsking.com/";
 
     @BeforeAll
