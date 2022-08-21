@@ -86,7 +86,7 @@ public class SmokeOddskingTests extends TestBase {
                 open(siteUrl));
 
         step("Click login button", () -> {
-            $("[data-actionable='Header.LoggedOut.buttonLogin']").click();
+            mainPage.loginButtonCLick();
         });
 
         step("login module appears", () -> {
