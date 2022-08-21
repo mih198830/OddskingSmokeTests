@@ -17,7 +17,7 @@ public class SmokeOddskingTests extends TestBase {
     @Description("Testing game search functionality")
     @DisplayName("Game search working")
     void generatedTest() {
-        step("Open url 'https://www.oddsking.com/'", () ->
+        step("Open url " + siteUrl, () ->
                 open(siteUrl));
 
         step("Click search field", () -> {
@@ -67,8 +67,8 @@ public class SmokeOddskingTests extends TestBase {
     @Description("Registration module should open")
     @DisplayName("Registration page opens and available")
     void registrationModuleTest() {
-        step("Open url 'https://www.oddsking.com/'", () ->
-                open("https://www.oddsking.com/"));
+        step("Open url " + siteUrl, () ->
+                open(siteUrl));
 
         step("Click registration button", () -> {
             $("[data-actionable='Header.LoggedOut.buttonJoin'],[href='registration']").click();
@@ -83,8 +83,8 @@ public class SmokeOddskingTests extends TestBase {
     @Description("Login module should open")
     @DisplayName("Login page opens and available")
     void loginModuleTest() {
-        step("Open url 'https://www.oddsking.com/'", () ->
-                open("https://www.oddsking.com/"));
+        step("Open url " + siteUrl, () ->
+                open(siteUrl));
 
         step("Click login button", () -> {
             $("[data-actionable='Header.LoggedOut.buttonLogin']").click();
