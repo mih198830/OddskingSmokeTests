@@ -1,4 +1,4 @@
-# Smoke tests for Oddsking site
+# Smoke tests for Oddsking Gambling Games site
 <a target="_blank" href="https://oddsking.com/">Oddsking platform testing</a>
 
 
