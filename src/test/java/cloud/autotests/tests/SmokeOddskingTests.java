@@ -38,7 +38,7 @@ public class SmokeOddskingTests extends TestBase {
     @DisplayName("Page title should have header text")
     void titleTest() {
         step("Open url 'https://www.oddsking.com/'", () ->
-            open("https://www.oddsking.com/"));
+            open(siteUrl));
 
         step("Page title should have text 'OddsKing - Play popular arcade gambling games online at OddsKing'", () -> {
             String expectedTitle = "OddsKing - Play popular arcade gambling games online at OddsKing";
@@ -52,8 +52,8 @@ public class SmokeOddskingTests extends TestBase {
     @Description("Severe errors are not in browser console")
     @DisplayName("Page console log should not have errors")
     void consoleShouldNotHaveErrorsTest() {
-        step("Open url 'https://www.oddsking.com/'", () ->
-            open("https://www.oddsking.com/"));
+        step("Open url " + siteUrl, () ->
+            open(siteUrl));
 
         step("Console logs should not contain text 'SEVERE'", () -> {
             String consoleLogs = DriverUtils.getConsoleLogs();
