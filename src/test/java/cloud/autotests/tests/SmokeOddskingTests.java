@@ -75,7 +75,7 @@ public class SmokeOddskingTests extends TestBase {
         });
 
         step("registration module appears", () -> {
-            $("[data-actionable='RegistrationPage.AccountSection'").exists();
+            registrationFirstPage.registrationFirstPageOpens();
         });
     }
 
