@@ -23,15 +23,15 @@ public class SmokeOddskingTests extends TestBase {
                 open(siteUrl));
 
         step("Click search field", () -> {
-            $("[data-actionable='GameSearch.Trigger.Open']").click();
+            mainPage.searchFieldClick();
         });
 
         step("Print \"game\" text into \"Search for a game\" text field", () -> {
-            $("[data-actionable='GameSearch.Searcher.Input']").setValue("game");
+            searchPage.searchPageSetValue("abc");
         });
 
         step("game search results appears", () -> {
-            $(withTagAndText("p","games found for you...")).shouldBe(Condition.visible);
+            searchPage.searchRestulsTextVisible();
         });
     }
 
