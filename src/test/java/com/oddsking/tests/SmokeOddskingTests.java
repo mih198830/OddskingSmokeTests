@@ -1,18 +1,16 @@
 package com.oddsking.tests;
 
 import com.oddsking.helpers.DriverUtils;
-import com.github.javafaker.Faker;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selenide.title;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
 public class SmokeOddskingTests extends TestBase {
-    Faker faker = new Faker();
     @Test
     @Description("Testing game search functionality")
     @DisplayName("Game search working")
