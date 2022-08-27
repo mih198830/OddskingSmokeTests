@@ -8,6 +8,8 @@ import com.sharpgaming.tests.pages.AboutUsPage;
 import com.sharpgaming.tests.pages.HomePage;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
+import com.sharpgaming.tests.pages.VacanciesPage;
+import com.sharpgaming.tests.pages.WhatWeDoPage;
 import io.qameta.allure.junit5.AllureJunit5;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
@@ -23,6 +25,8 @@ public class TestBase {
     TestData testData = new TestData();
     HomePage homePage = new HomePage();
     AboutUsPage aboutUsPage = new AboutUsPage();
+    WhatWeDoPage whatWeDoPage = new WhatWeDoPage();
+    VacanciesPage vacanciesPage = new VacanciesPage();
 
     @BeforeAll
     static void beforeAll() {

@@ -1,21 +1,17 @@
 package com.sharpgaming.tests;
 
-import com.sharpgaming.helpers.DriverUtils;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Selenide.open;
-import static com.codeborne.selenide.Selenide.title;
 import static io.qameta.allure.Allure.step;
-import static org.assertj.core.api.Assertions.assertThat;
 
 
 public class SmokeSharpgamingTests extends TestBase {
     @Test
     @Description("Check that email link exist on the About Us page")
     @DisplayName("Email link test - About us page ")
-    void generatedTest() {
+    void emailLinkTest() {
 
         step("Click About Us Link", () -> {
             homePage.aboutUsLinkClick();
@@ -23,6 +19,34 @@ public class SmokeSharpgamingTests extends TestBase {
 
         step("Check email address is present on the About Us page", () -> {
             aboutUsPage.emailAddress();
+        });
+    }
+
+    @Test
+    @Description("Open What we Do page and click Vacancies button")
+    @DisplayName("Open What we Do page and open Vacancies")
+    void checkVacanciesFromWhatWePage() {
+        step("Click What we do Link", () -> {
+            homePage.whatWeDoLinkClick();
+        });
+
+        step("Click Vacancies from What we do page", () -> {
+            whatWeDoPage.vacanciesButtonClick();
+            vacanciesPage.vacanciesBlockCheckIsVisible();
+        });
+    }
+
+
+    @Test
+    @Description("Open What we Do page and click Vacancies button")
+    @DisplayName("Open What we Do page and open Vacancies")
+    void generatedTest() {
+        step("Click What we do Link", () -> {
+            homePage.whatWeDoLinkClick();
+        });
+
+        step("Check email address is present on the About Us page", () -> {
+            whatWeDoPage.vacanciesButtonClick();
         });
     }
 }
