@@ -1,5 +1,5 @@
-# Smoke tests for Oddsking Gambling Games site
-<a target="_blank" href="https://oddsking.com/">Oddsking platform testing</a>
+# Smoke tests for SharpGamingSite
+<a target="_blank" href="https://www.sharpgaming.com/">Sharpgaming</a>
 
 
 ## :mechanic: Jenkins job
