@@ -4,12 +4,9 @@ import com.sharpgaming.config.Project;
 import com.sharpgaming.helpers.AllureAttachments;
 import com.sharpgaming.helpers.DriverSettings;
 import com.sharpgaming.helpers.DriverUtils;
-import com.sharpgaming.tests.pages.AboutUsPage;
-import com.sharpgaming.tests.pages.HomePage;
+import com.sharpgaming.tests.pages.*;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
-import com.sharpgaming.tests.pages.VacanciesPage;
-import com.sharpgaming.tests.pages.WhatWeDoPage;
 import io.qameta.allure.junit5.AllureJunit5;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
@@ -27,6 +24,7 @@ public class TestBase {
     AboutUsPage aboutUsPage = new AboutUsPage();
     WhatWeDoPage whatWeDoPage = new WhatWeDoPage();
     VacanciesPage vacanciesPage = new VacanciesPage();
+    ContactPage contactPage = new ContactPage();
 
     @BeforeAll
     static void beforeAll() {
@@ -53,7 +51,6 @@ public class TestBase {
 
         AllureAttachments.addScreenshotAs("Last screenshot");
         AllureAttachments.addPageSource();
-//        AllureAttachments.attachNetwork(); // todo
         AllureAttachments.addBrowserConsoleLogs();
 
         Selenide.closeWebDriver();

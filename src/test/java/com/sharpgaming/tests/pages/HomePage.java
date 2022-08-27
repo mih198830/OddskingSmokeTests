@@ -10,6 +10,7 @@ public class HomePage {
     SelenideElement cookieButton = $(".sqs-cookie-banner-v2-acceptWrapper");
     SelenideElement aboutUsLink = $(withTagAndText("a","About us"));
     SelenideElement whatWeDo = $(withTagAndText("a","What we do"));
+    SelenideElement contactUs = $(withTagAndText("a", "Contact"));
 
         public HomePage cookieButtonCLick() {
         cookieButton.click();
@@ -24,5 +25,10 @@ public class HomePage {
     public HomePage whatWeDoLinkClick() {
         whatWeDo.click();
         return this;
+    }
+
+    public  HomePage contactUsLinkClick() {
+            contactUs.click();
+            return this;
     }
 }
