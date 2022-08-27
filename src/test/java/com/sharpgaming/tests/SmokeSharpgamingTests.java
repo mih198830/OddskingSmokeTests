@@ -14,7 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class SmokeSharpgamingTests extends TestBase {
     @Test
     @Description("Check that email link exist on the About Us page")
-    @DisplayName("About us page email linktest")
+    @DisplayName("Email link test - About us page ")
     void generatedTest() {
 
 
@@ -22,7 +22,7 @@ public class SmokeSharpgamingTests extends TestBase {
             homePage.aboutUsLinkClick();
         });
 
-        step("Click arrow icon to scroll management team", () -> {
+        step("Check email address is present on the About Us page", () -> {
             aboutUsPage.emailAddress();
         });
     }
