@@ -84,7 +84,7 @@ allure serve build/allure-results
 ## :clapper: Test video example
 https://user-images.githubusercontent.com/61227126/187040978-3c5c7019-c9dc-4806-b981-661ad7ae5609.mp4
 
-## ![Jira](https://user-images.githubusercontent.com/61227126/178106099-be57c5c7-810a-44bd-b6b4-0e5c3d77b1c6.png)Jira [synchronization]([https://jira.autotests.cloud/browse/AUTO-1198](https://jira.autotests.cloud/browse/AUTO-1325))
+## ![Jira](https://user-images.githubusercontent.com/61227126/178106099-be57c5c7-810a-44bd-b6b4-0e5c3d77b1c6.png)Jira [synchronization] (https://jira.autotests.cloud/browse/AUTO-1325)
 ![2022-07-09_16h39_02](https://user-images.githubusercontent.com/61227126/178106136-55f87a17-0370-4c8d-8232-6ab8689e10c4.png)
 
 ## ![Telegram (1)](https://user-images.githubusercontent.com/61227126/177992751-b5d98d08-29ee-4f20-98ff-8cbacdba530c.png) Notification to Telegram with report results 
