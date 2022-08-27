@@ -3,7 +3,7 @@
 
 
 ## :mechanic: Jenkins job
-<a target="_blank" href="https://jenkins.autotests.cloud/job/Oddsking%20Smoke%20Tests/">jenkins.autotests.cloud/job</a>
+<a target="_blank" href="https://jenkins.autotests.cloud/job/SharpGamingSmokeTests/">jenkins.autotests.cloud/job</a>
 
 
 ## :blue_book: Content:
