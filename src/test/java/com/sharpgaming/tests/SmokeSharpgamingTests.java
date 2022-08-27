@@ -5,7 +5,11 @@ import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import static com.codeborne.selenide.Condition.*;
+import static com.codeborne.selenide.Selectors.byValue;
+import static com.codeborne.selenide.Selectors.withTagAndText;
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.sleep;
 import static io.qameta.allure.Allure.step;
 
 
@@ -52,8 +56,8 @@ public class SmokeSharpgamingTests extends TestBase {
     }
 
     @Test
-    @Description("Message field is mandatory")
-    @DisplayName("Submitting form without mandatory data")
+    @Description("No error about mandatory field")
+    @DisplayName("No error about mandatory field")
     void contactFormCheck() {
         step("Click Contact Link", () -> {
             homePage.contactUsLinkClick();
@@ -71,13 +75,8 @@ public class SmokeSharpgamingTests extends TestBase {
             contactPage.emailFormPrint(testData.email);
         });
 
-        step("Click Submit button", () -> {
-            contactPage.submitButtonClick();
-        });
-
-        step("Error visible as message field is mandatory", () -> {
-            contactPage.submitButtonClick();
-            $(".field-error").shouldBe(Condition.visible);
+        step("No Error messages on the page", () -> {
+            $(".field-error").shouldNotBe(visible);;
         });
     }
 }
