@@ -82,15 +82,14 @@ allure serve build/allure-results
 ```
 
 ## :clapper: Test video example
-https://user-images.githubusercontent.com/61227126/177204538-95d11128-c324-445e-ac10-c9e7a1b3e657.mp4
+https://user-images.githubusercontent.com/61227126/187040978-3c5c7019-c9dc-4806-b981-661ad7ae5609.mp4
 
   
 ## ![Jira](https://user-images.githubusercontent.com/61227126/178106099-be57c5c7-810a-44bd-b6b4-0e5c3d77b1c6.png)Jira [synchronization](https://jira.autotests.cloud/browse/AUTO-1198)
 ![2022-07-09_16h39_02](https://user-images.githubusercontent.com/61227126/178106136-55f87a17-0370-4c8d-8232-6ab8689e10c4.png)
 
 ## ![Telegram (1)](https://user-images.githubusercontent.com/61227126/177992751-b5d98d08-29ee-4f20-98ff-8cbacdba530c.png) Notification to Telegram with report results 
-![2022-07-07_22h57_38](https://user-images.githubusercontent.com/61227126/177851117-4c09deb4-6cef-48f6-bc07-934f27adb39c.png)
+![2022-08-27_21h18_27](https://user-images.githubusercontent.com/61227126/187041028-d1dd6b3b-4b98-426d-a98b-436f9e4a73a1.png)
 
   
 :heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
-:blue_heart: <a target="_blank" href="https://t.me/qa_automation">t.me/qa_automation</a>
