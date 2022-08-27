@@ -65,7 +65,7 @@ test
 <p></a> Report in <a target="_blank" href="https://jenkins.autotests.cloud/job/SharpGamingSmokeTests/5/allure/">Allure</a><p>
 
 ## Overview
-![2022-08-27_21h21_02](https://user-images.githubusercontent.com/61227126/187041147-1063adc2-4065-4af7-b0b3-4866f5585f82.png)
+![2022-08-27_21h26_50](https://user-images.githubusercontent.com/61227126/187041308-0abc16c8-9fee-4a38-8de9-cb6413e48bd2.png)
 
 ## Suites
 ![2022-08-27_21h11_29](https://user-images.githubusercontent.com/61227126/187040788-f4dd845a-8fc1-4f1d-acba-f056aa946eeb.png)
@@ -74,7 +74,8 @@ test
 ![2022-08-27_21h12_00](https://user-images.githubusercontent.com/61227126/187040813-7b974f4f-3e00-44d8-b343-12bde18350aa.png)
   
 ## ![AllureTestOps (1)](https://user-images.githubusercontent.com/61227126/177992986-b5498dfb-8e67-4e40-a355-afb590f616a8.png) Allure Test Ops [test-cases](https://allure.autotests.cloud/project/1431/test-cases/10912?treeId=0)
-![2022-07-05_23h56_34](https://user-images.githubusercontent.com/61227126/177406019-3308e5cd-66f0-4e9c-9c87-62813cfc5edd.png)
+![2022-08-27_21h21_02](https://user-images.githubusercontent.com/61227126/187041223-7a86c458-ddda-4f54-91d0-9e67561381be.png)
+
 
 Serve report:
 ```bash
