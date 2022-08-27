@@ -1,4 +1,4 @@
-package com.oddsking.config;
+package com.sharpgaming.config;
 
 import org.aeonbits.owner.Config;
 

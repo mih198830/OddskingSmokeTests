@@ -1,4 +1,4 @@
-package com.oddsking.tests;
+package com.sharpgaming.tests;
 
 import com.github.javafaker.Faker;
 

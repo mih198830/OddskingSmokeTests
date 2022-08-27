@@ -1,20 +1,20 @@
-package com.oddsking.tests.pages;
+package com.sharpgaming.tests.pages;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 
 import static com.codeborne.selenide.Selenide.$;
 
-public class SearchPage {
+public class WhatWeDoPage {
     SelenideElement searchInput = $("[data-actionable='GameSearch.Searcher.Input']");
     SelenideElement searchResultsText = $("._1ensqhg");
 
-    public SearchPage searchPageSetValue(String value) {
+    public WhatWeDoPage searchPageSetValue(String value) {
         searchInput.setValue(value);
         return this;
     }
 
-    public SearchPage searchRestulsTextVisible() {
+    public WhatWeDoPage searchRestulsTextVisible() {
         searchResultsText.shouldBe(Condition.visible);
         return this;
     }

@@ -1,6 +1,6 @@
-package com.oddsking.helpers;
+package com.sharpgaming.helpers;
 
-import com.oddsking.config.Project;
+import com.sharpgaming.config.Project;
 import com.codeborne.selenide.Selenide;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;

@@ -1,13 +1,11 @@
-package com.oddsking.tests;
+package com.sharpgaming.tests;
 
-import com.oddsking.config.Project;
-import com.oddsking.helpers.AllureAttachments;
-import com.oddsking.helpers.DriverSettings;
-import com.oddsking.helpers.DriverUtils;
-import com.oddsking.tests.pages.LoginPage;
-import com.oddsking.tests.pages.MainPage;
-import com.oddsking.tests.pages.RegistrationFirstPage;
-import com.oddsking.tests.pages.SearchPage;
+import com.sharpgaming.config.Project;
+import com.sharpgaming.helpers.AllureAttachments;
+import com.sharpgaming.helpers.DriverSettings;
+import com.sharpgaming.helpers.DriverUtils;
+import com.sharpgaming.tests.pages.AboutUsPage;
+import com.sharpgaming.tests.pages.HomePage;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.junit5.AllureJunit5;
@@ -17,27 +15,28 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;
 
+import static io.qameta.allure.Allure.step;
+
 
 @ExtendWith({AllureJunit5.class})
 public class TestBase {
     TestData testData = new TestData();
-    MainPage mainPage = new MainPage();
-    LoginPage loginPage = new LoginPage();
-    RegistrationFirstPage registrationFirstPage = new RegistrationFirstPage();
-    SearchPage searchPage = new SearchPage();
+    HomePage homePage = new HomePage();
+    AboutUsPage aboutUsPage = new AboutUsPage();
 
     @BeforeAll
     static void beforeAll() {
         DriverSettings.configure();
     }
 
+
     @BeforeEach
     public void openPage() {
-        Selenide.open("https://www.oddsking.com/");
+        Selenide.open("https://www.sharpgaming.com/");
     }
 
-    public void cookieClick() {
-        mainPage.cookieButtonCLick();
+    public void acceptCookie() {
+            homePage.cookieButtonCLick();
     }
 
     public void beforeEach() {

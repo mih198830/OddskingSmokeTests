@@ -1,4 +1,4 @@
-package com.oddsking.helpers;
+package com.sharpgaming.helpers;
 
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;

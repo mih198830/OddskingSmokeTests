@@ -1,6 +1,6 @@
-package com.oddsking.helpers;
+package com.sharpgaming.helpers;
 
-import com.oddsking.config.Project;
+import com.sharpgaming.config.Project;
 import com.codeborne.selenide.Configuration;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
