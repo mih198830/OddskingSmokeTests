@@ -17,7 +17,6 @@ public class SmokeSharpgamingTests extends TestBase {
     @DisplayName("Email link test - About us page ")
     void generatedTest() {
 
-
         step("Click About Us Link", () -> {
             homePage.aboutUsLinkClick();
         });
