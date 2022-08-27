@@ -85,8 +85,8 @@ allure serve build/allure-results
 https://user-images.githubusercontent.com/61227126/187040978-3c5c7019-c9dc-4806-b981-661ad7ae5609.mp4
 
 ## Jira
-<p></a>Jira <a target="_blank" href="https://jira.autotests.cloud/browse/AUTO-1325">Jira synchronizatio</a><p>
-
+<p></a><a target="_blank" href="https://jira.autotests.cloud/browse/AUTO-1325">Jira synchronization</a><p>
+![2022-08-27_22h00_53](https://user-images.githubusercontent.com/61227126/187042443-024d0f07-ee2f-40d5-803e-49bebce81a07.png)
 
 ## ![Telegram (1)](https://user-images.githubusercontent.com/61227126/177992751-b5d98d08-29ee-4f20-98ff-8cbacdba530c.png) Notification to Telegram with report results 
 ![2022-08-27_21h18_27](https://user-images.githubusercontent.com/61227126/187041028-d1dd6b3b-4b98-426d-a98b-436f9e4a73a1.png)
