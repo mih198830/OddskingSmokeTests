@@ -23,11 +23,10 @@
 
 ## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UI
 
-> - [x] :heavy_check_mark: *Testing game search functionality*
-> - [x] :heavy_check_mark: *Page title should have header text*
-> - [x] :heavy_check_mark: *Registration page opens and available*
-> - [x] :o: *Page console log should not have errors*
-> - [x] :heavy_check_mark: *Login page opens and available*
+> - [x] :heavy_check_mark: *Check that email link exist on the About Us page*
+> - [x] :heavy_check_mark: *Open What we Do page and click Vacancies button*
+> - [x] :heavy_check_mark: *Open Vacancies page and check vacancies block is available*
+> - [x] :heavy_check_mark: *No error about mandatory field*
 
 ## Jenkins build parameters:
 
@@ -36,7 +35,6 @@
 - browserSize (by default 1920x1080)
 - browserMobileView
 - threads
-
 
 ## :computer: Run tests from terminal
 
