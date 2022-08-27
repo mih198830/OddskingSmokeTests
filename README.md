@@ -86,6 +86,7 @@ https://user-images.githubusercontent.com/61227126/187040978-3c5c7019-c9dc-4806-
 
 ## Jira
 <p></a><a target="_blank" href="https://jira.autotests.cloud/browse/AUTO-1325">Jira synchronization</a><p>
+  
 ![2022-08-27_22h00_53](https://user-images.githubusercontent.com/61227126/187042475-c04afc6b-abd8-4f49-9339-3f2e2ebacf2f.png)
 
 
