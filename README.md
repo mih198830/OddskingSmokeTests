@@ -79,6 +79,6 @@ https://user-images.githubusercontent.com/61227126/187040978-3c5c7019-c9dc-4806-
 ![2022-08-27_22h04_02](https://user-images.githubusercontent.com/61227126/187042577-002567bf-57ec-4cf2-9be3-ee3d0ad2fb38.png)
 
 ## ![Telegram (1)](https://user-images.githubusercontent.com/61227126/177992751-b5d98d08-29ee-4f20-98ff-8cbacdba530c.png) Notification to Telegram with report results 
-![2022-08-27_21h18_27](https://user-images.githubusercontent.com/61227126/187041028-d1dd6b3b-4b98-426d-a98b-436f9e4a73a1.png)
+![2022-08-27_22h15_54](https://user-images.githubusercontent.com/61227126/187042987-3308f7b9-8ca0-4df0-abd5-d0b4b8a0fe3e.png)
 
 :heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
