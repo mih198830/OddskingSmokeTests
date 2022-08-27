@@ -65,7 +65,7 @@ test
 <p></a> Report in <a target="_blank" href="https://jenkins.autotests.cloud/job/SharpGamingSmokeTests/5/allure/">Allure</a><p>
 
 ## Overview
-![2022-08-27_21h10_40](https://user-images.githubusercontent.com/61227126/187040759-cf845f64-7b7d-422d-8b76-d445181a941c.png)
+![2022-08-27_21h21_02](https://user-images.githubusercontent.com/61227126/187041147-1063adc2-4065-4af7-b0b3-4866f5585f82.png)
 
 ## Suites
 ![2022-08-27_21h11_29](https://user-images.githubusercontent.com/61227126/187040788-f4dd845a-8fc1-4f1d-acba-f056aa946eeb.png)
@@ -84,7 +84,6 @@ allure serve build/allure-results
 ## :clapper: Test video example
 https://user-images.githubusercontent.com/61227126/187040978-3c5c7019-c9dc-4806-b981-661ad7ae5609.mp4
 
-  
 ## ![Jira](https://user-images.githubusercontent.com/61227126/178106099-be57c5c7-810a-44bd-b6b4-0e5c3d77b1c6.png)Jira [synchronization](https://jira.autotests.cloud/browse/AUTO-1198)
 ![2022-07-09_16h39_02](https://user-images.githubusercontent.com/61227126/178106136-55f87a17-0370-4c8d-8232-6ab8689e10c4.png)
 
