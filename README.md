@@ -58,20 +58,20 @@ test
 
 ##
 ![AllureTestOps (1)](https://user-images.githubusercontent.com/61227126/178105147-0d813199-d937-436f-afcb-2f80e941ccaf.png)
-<p></a> Report in <a target="_blank" href="https://allure.autotests.cloud/project/1431/dashboards">Allure TestOps</a><p>
+<p></a> Report in <a target="_blank" href="https://allure.autotests.cloud/launch/15462">Allure TestOps</a><p>
  
 ##
 ![Allure_Report](https://user-images.githubusercontent.com/61227126/178105175-54c2a093-f0f3-4212-bcc7-2343399d33ba.png)
-<p></a> Report in <a target="_blank" href="https://jenkins.autotests.cloud/job/Oddsking%20Smoke%20Tests/8/allure/">Allure</a><p>
+<p></a> Report in <a target="_blank" href="https://jenkins.autotests.cloud/job/SharpGamingSmokeTests/5/allure/">Allure</a><p>
 
 ## Overview
-![2022-07-04_21h56_11](https://user-images.githubusercontent.com/61227126/177201140-a119ff0a-a4eb-4efd-801f-e29c8048eaac.png)
+![2022-08-27_21h10_40](https://user-images.githubusercontent.com/61227126/187040759-cf845f64-7b7d-422d-8b76-d445181a941c.png)
 
 ## Suites
-![2022-07-05_22h31_03](https://user-images.githubusercontent.com/61227126/177392676-2293aafa-fdc2-4feb-837c-c4ba40591ddc.png)
+![2022-08-27_21h11_29](https://user-images.githubusercontent.com/61227126/187040788-f4dd845a-8fc1-4f1d-acba-f056aa946eeb.png)
 
 ## Graphs
-![2022-07-05_22h32_05](https://user-images.githubusercontent.com/61227126/177392923-d6df4df8-e58a-46c4-8d1b-7391bfc9b46c.png)
+![2022-08-27_21h12_00](https://user-images.githubusercontent.com/61227126/187040813-7b974f4f-3e00-44d8-b343-12bde18350aa.png)
   
 ## ![AllureTestOps (1)](https://user-images.githubusercontent.com/61227126/177992986-b5498dfb-8e67-4e40-a355-afb590f616a8.png) Allure Test Ops [test-cases](https://allure.autotests.cloud/project/1431/test-cases/10912?treeId=0)
 ![2022-07-05_23h56_34](https://user-images.githubusercontent.com/61227126/177406019-3308e5cd-66f0-4e9c-9c87-62813cfc5edd.png)
