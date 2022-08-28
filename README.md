@@ -5,7 +5,9 @@
 
 
 ## Jenkins job
+<p align="center">
 <a href="https://jenkins.autotests.cloud/job/SharpGamingSmokeTests/"><img src="src/images/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins" title="Jenkins"/></a>
+<p>
                                                                
 ## Technologies and instruments
 <p align="center">
