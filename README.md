@@ -1,4 +1,4 @@
-# Smoke tests for [SharpGaming Site](https://www.sharpgaming.com/)
+# Smoke tests for [SharpGaming Site](https://www.sharpgaming.com/) - graduation project (QA.GURU school)
 
 ![2022-08-28_19h49_56](https://user-images.githubusercontent.com/61227126/187082864-205fc0e1-135f-477a-b59b-ec897b0000b5.png)
 
