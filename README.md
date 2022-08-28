@@ -6,9 +6,10 @@
 
 ## Jenkins job
 <a href="https://www.jenkins.io/"><img src="src/images/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins" title="Jenkins"/></a>
+  
 <a target="_blank" href="https://jenkins.autotests.cloud/job/SharpGamingSmokeTests/">jenkins.autotests.cloud/job</a>
                                                                
-## :technologist: Technologies and instruments
+## Technologies and instruments
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="src/images/logo/Idea.svg" width="50" height="50"  alt="IDEA" title="IntelliJ IDEA"/></a>
 <a href="https://www.java.com/"><img src="src/images/logo/Java.svg" width="50" height="50"  alt="Java" title="Java"/></a>
