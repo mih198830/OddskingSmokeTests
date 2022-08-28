@@ -9,7 +9,7 @@
                                                                
 ## :technologist: Technologies and instruments
 <p align="center">
-<a href="https://www.jetbrains.com/idea/"><img src="src/images/logo/Idea.svg" width="50" height="50"  alt="IDEA" title="IntelliJ IDEA"/></a>
+<a href="https://www.jetbrains.com/idea/"><img src="images/logo/Idea.svg" width="50" height="50"  alt="IDEA" title="IntelliJ IDEA"/></a>
 <a href="https://www.java.com/"><img src="src/images/logo/Java.svg" width="50" height="50"  alt="Java" title="Java"/></a>
 <a href="https://github.com/"><img src="src/images/logo/GitHub.svg" width="50" height="50"  alt="Github" title="GitHub"/></a>
 <a href="https://junit.org/junit5/"><img src="src/images/logo/Junit5.svg" width="50" height="50"  alt="JUnit 5" title="JUnit 5"/></a>
