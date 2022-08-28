@@ -4,7 +4,7 @@
 ![2022-08-28_19h49_56](https://user-images.githubusercontent.com/61227126/187082864-205fc0e1-135f-477a-b59b-ec897b0000b5.png)
 
 
-## ![2022-08-28_19h52_52](https://user-images.githubusercontent.com/61227126/187083016-bae4998f-0753-4c75-a15e-8f91cc37a5b6.png) Jenkins job
+## ![Jenkins](https://user-images.githubusercontent.com/61227126/187083547-a47050c1-abed-4d1a-95ac-a3cb0ed88eb6.svg) Jenkins job
 <a target="_blank" href="https://jenkins.autotests.cloud/job/SharpGamingSmokeTests/">jenkins.autotests.cloud/job</a>
                                                                
 ## :technologist: Technologies and instruments
