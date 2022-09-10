@@ -1,13 +1,14 @@
-# Smoke tests for [SharpGaming Site](https://www.sharpgaming.com/) - graduation project ([QA.GURU](https://qa.guru/) school)
+# Smoke tests for [SharpGaming Site](https://www.sharpgaming.com/) - Graduation Project ([QA.GURU](https://qa.guru/en/) school)
 <p align="center">
 
 ![2022-08-28_19h49_56](https://user-images.githubusercontent.com/61227126/187082864-205fc0e1-135f-477a-b59b-ec897b0000b5.png)
 
-
 ## Jenkins job
-<a target="_blank" href="https://jenkins.autotests.cloud/job/SharpGamingSmokeTests/">jenkins.autotests.cloud/job</a>
+<p align="center">
+<a href="https://jenkins.autotests.cloud/job/SharpGamingSmokeTests/"><img src="src/images/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins" title="Jenkins"/></a>
+<p>
                                                                
-## :technologist: Technologies and instruments
+## Technologies and instruments
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="src/images/logo/Idea.svg" width="50" height="50"  alt="IDEA" title="IntelliJ IDEA"/></a>
 <a href="https://www.java.com/"><img src="src/images/logo/Java.svg" width="50" height="50"  alt="Java" title="Java"/></a>
@@ -62,9 +63,9 @@ test
 ![AllureTestOps (1)](https://user-images.githubusercontent.com/61227126/178105147-0d813199-d937-436f-afcb-2f80e941ccaf.png)
 <p></a> Report in <a target="_blank" href="https://allure.autotests.cloud/launch/15463">Allure TestOps</a><p>
  
-##
+## 
 ![Allure_Report](https://user-images.githubusercontent.com/61227126/178105175-54c2a093-f0f3-4212-bcc7-2343399d33ba.png)
-<p></a> Report in <a target="_blank" href="https://jenkins.autotests.cloud/job/SharpGamingSmokeTests/6/allure/">Allure</a><p>
+<p></a> Report in <a target="_blank" href="https://jenkins.autotests.cloud/job/SharpGamingSmokeTests/10/allure/">Allure</a><p>
 
 ## Overview
 ![2022-08-27_21h26_50](https://user-images.githubusercontent.com/61227126/187041308-0abc16c8-9fee-4a38-8de9-cb6413e48bd2.png)
