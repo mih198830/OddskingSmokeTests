@@ -1,20 +1,18 @@
 package com.sharpgaming.tests;
 
+import com.codeborne.selenide.Selenide;
+import com.codeborne.selenide.logevents.SelenideLogger;
 import com.sharpgaming.config.Project;
 import com.sharpgaming.helpers.AllureAttachments;
 import com.sharpgaming.helpers.DriverSettings;
 import com.sharpgaming.helpers.DriverUtils;
 import com.sharpgaming.tests.pages.*;
-import com.codeborne.selenide.Selenide;
-import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.junit5.AllureJunit5;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;
-
-import static io.qameta.allure.Allure.step;
 
 
 @ExtendWith({AllureJunit5.class})
