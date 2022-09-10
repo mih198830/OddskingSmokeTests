@@ -35,10 +35,6 @@ public class TestBase {
         Selenide.open("https://www.sharpgaming.com/");
     }
 
-    public void acceptCookie() {
-            homePage.cookieButtonCLick();
-    }
-
     public void beforeEach() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
