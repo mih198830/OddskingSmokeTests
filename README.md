@@ -50,6 +50,7 @@ gradle clean test
 
 Remote run:
 ```bash
+gradle
 clean
 test
 -Dbrowser=${BROWSER}
