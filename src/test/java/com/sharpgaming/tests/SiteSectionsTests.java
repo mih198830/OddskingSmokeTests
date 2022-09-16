@@ -1,6 +1,5 @@
 package com.sharpgaming.tests;
 
-import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -10,7 +9,6 @@ import static io.qameta.allure.Allure.step;
 
 public class SiteSectionsTests extends TestBase {
     @Test
-    @Description("Email link test - About us page")
     @DisplayName("Check that email link exist on the About Us page")
     void emailLinkTest() {
 
@@ -24,7 +22,6 @@ public class SiteSectionsTests extends TestBase {
     }
 
     @Test
-    @Description("Check Vacancies button works")
     @DisplayName("Open What we Do page and open Vacancies")
     void checkVacanciesFromWhatWePage() {
         step("Click What we do Link", () ->
@@ -38,7 +35,6 @@ public class SiteSectionsTests extends TestBase {
     }
 
     @Test
-    @Description("Open Vacancies page and check vacancies block is available")
     @DisplayName("Vacancies block available for users")
     void vacanciesBlockAvailable() {
         step("Click What we do Link", () ->
@@ -51,7 +47,7 @@ public class SiteSectionsTests extends TestBase {
     }
 
     @Test
-    @Description("No error about mandatory field")
+    @DisplayName("No error appears about mandatory field")
     void contactFormCheck() {
         step("Click Contact Link", () ->
                 homePage.contactUsLinkClick()
