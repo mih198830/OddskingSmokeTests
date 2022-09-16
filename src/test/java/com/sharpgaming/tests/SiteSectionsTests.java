@@ -10,8 +10,8 @@ import static io.qameta.allure.Allure.step;
 
 public class SiteSectionsTests extends TestBase {
     @Test
-    @Description("Check that email link exist on the About Us page")
-    @DisplayName("Email link test - About us page ")
+    @Description("Email link test - About us page")
+    @DisplayName("Check that email link exist on the About Us page")
     void emailLinkTest() {
 
         step("Click About Us Link", () ->
@@ -24,7 +24,7 @@ public class SiteSectionsTests extends TestBase {
     }
 
     @Test
-    @Description("Open What we Do page and click Vacancies button")
+    @Description("Check Vacancies button works")
     @DisplayName("Open What we Do page and open Vacancies")
     void checkVacanciesFromWhatWePage() {
         step("Click What we do Link", () ->
@@ -52,7 +52,6 @@ public class SiteSectionsTests extends TestBase {
 
     @Test
     @Description("No error about mandatory field")
-    @DisplayName("No error about mandatory field")
     void contactFormCheck() {
         step("Click Contact Link", () ->
                 homePage.contactUsLinkClick()
