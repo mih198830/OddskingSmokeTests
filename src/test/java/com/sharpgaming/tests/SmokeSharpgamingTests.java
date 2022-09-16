@@ -71,7 +71,8 @@ public class SmokeSharpgamingTests extends TestBase {
         });
 
         step("No Error messages on the page", () -> {
-            $(".field-error").shouldNotBe(visible);;
+            $(".field-error").shouldNotBe(visible);
+            ;
         });
     }
 }
