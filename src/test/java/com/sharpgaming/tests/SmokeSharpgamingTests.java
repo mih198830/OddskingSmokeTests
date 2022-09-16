@@ -54,25 +54,24 @@ public class SmokeSharpgamingTests extends TestBase {
     @Description("No error about mandatory field")
     @DisplayName("No error about mandatory field")
     void contactFormCheck() {
-        step("Click Contact Link", () -> {
-            homePage.contactUsLinkClick();
-        });
+        step("Click Contact Link", () ->
+                homePage.contactUsLinkClick()
+        );
 
-        step("Print first name", () -> {
-            contactPage.firstNameFormPrint(testData.firstName);
-        });
+        step("Print first name", () ->
+                contactPage.firstNameFormPrint(testData.firstName)
+        );
 
-        step("Print last name", () -> {
-            contactPage.lastNameFormPrint(testData.lastName);
-        });
+        step("Print last name", () ->
+                contactPage.lastNameFormPrint(testData.lastName)
+        );
 
-        step("Print email", () -> {
-            contactPage.emailFormPrint(testData.email);
-        });
+        step("Print email", () ->
+                contactPage.emailFormPrint(testData.email)
+        );
 
-        step("No Error messages on the page", () -> {
-            $(".field-error").shouldNotBe(visible);
-            ;
-        });
+        step("No Error messages on the page", () ->
+                $(".field-error").shouldNotBe(visible)
+        );
     }
 }
