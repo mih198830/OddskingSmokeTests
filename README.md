@@ -45,9 +45,12 @@ Local run:
 ```bash
 gradle clean test
 ```
+![2022-09-10_22h05_20](https://user-images.githubusercontent.com/61227126/189496138-da3b49d6-eb9a-491c-becb-d93d612d3232.png)
+
 
 Remote run:
 ```bash
+gradle
 clean
 test
 -Dbrowser=${BROWSER}
